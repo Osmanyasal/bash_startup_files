@@ -1,8 +1,5 @@
-# bash_startup_files
+# Bash Startup Files Loading Order
 
-**********************************
- Bash Startup Files Loading Order
-**********************************
 Bash reads different configuration files depending on what mode it's lanunched
 in. This table lists the possible mode:config-file combinations. The letters in
 each cell represent each files respective loading order for that column.
