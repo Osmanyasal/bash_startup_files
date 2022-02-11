@@ -1,5 +1,7 @@
 # Bash Startup Files Loading Order
 
+![bash_startup-4](https://user-images.githubusercontent.com/22853419/153561337-dba7aa07-916d-408f-9ab6-5b45f2fed487.png)
+
 Bash reads different configuration files depending on what mode it's lanunched
 in. This table lists the possible mode:config-file combinations. The letters in
 each cell represent each files respective loading order for that column.
@@ -41,7 +43,6 @@ If you are concerned that a config file may source another, the only way to know
 is to read all the existing config files for the session type yourself (everything
 in the relevant column).
 
-![bash_startup-4](https://user-images.githubusercontent.com/22853419/153561337-dba7aa07-916d-408f-9ab6-5b45f2fed487.png)
 
 
 Where to Set Environment Variables
